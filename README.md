@@ -4,6 +4,10 @@ A lightweight, self-contained setup to manage the RGB keyboard backlight on a Gi
 
 This repository patches the hardware gap by vendoring the Clevo/Tuxedo kernel drivers, using DKMS to ensure they survive rolling-release kernel updates, and providing a clean Fish shell CLI utility to adjust brightness and colors.
 
+# Tried and tested!
+
+![kblight_test](./kblight_test.gif)
+
 ## Repository Structure
 
 ```text
