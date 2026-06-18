@@ -26,7 +26,7 @@ kblight/
 Run the automated installer script using `sudo`. The script will pull down system build dependencies via `xbps-install`, compile and register the kernel modules via DKMS, configure them to load at boot, and install the `kblight` utility to your global path.
 
 ```bash
-git clone https://github.com/v4rm4n/kgblight.git
+git clone https://github.com/v4rm4n/kblight.git
 cd kblight
 sudo fish install-kblight.fish
 ```
